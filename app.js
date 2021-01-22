@@ -4,7 +4,6 @@ var radius2 = 1;
 var max = 1920;
 createRandomNodes(100, 2, 1920);
 
-
 function createRandomNodes(num, radius, max) {
     var canvas = document.getElementById("canv");
     var context = canvas.getContext("2d");
